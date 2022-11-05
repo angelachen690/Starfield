@@ -14,6 +14,7 @@ void setup()
 void draw()
 {
   background(0);
+  frameRate(30);
   for (int i = 0; i < stars.length; i++){
     stars[i].show();
     stars[i].move();
