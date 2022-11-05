@@ -58,6 +58,6 @@ class OddballParticle extends Particle
    stroke(0);
    rect ((float)myX, (float)myY, 50,20);
    fill(0);
-   text("$", (float)myX + 23, (float)myY + 14);
+   text("$", (float)myX + 23, (float)myY + 15);
   }
 }
